@@ -1,9 +1,5 @@
-/* =====================================================
-                    RESET
-===================================================== */
-
 * {
-    margin: 0;
+    margin: 0; 
     padding: 0;
     box-sizing: border-box;
 }
@@ -23,11 +19,6 @@ a {
     text-decoration: none;
     color: inherit;
 }
-
-
-/* =====================================================
-                    HERO
-===================================================== */
 
 .hero {
     position: relative;
@@ -62,10 +53,6 @@ a {
     z-index: -2;
 }
 
-
-/* =====================================================
-                    NAVBAR
-===================================================== */
 
 .navbar {
     width: 100%;
@@ -146,11 +133,6 @@ a {
     transform: translateY(-2px);
 }
 
-
-/* =====================================================
-                    HERO CONTENT
-===================================================== */
-
 .hero-content {
     position: relative;
 
@@ -171,7 +153,7 @@ a {
 }
 
 .hero-content h1 {
-    font-size: clamp(55px, 7vw, 105px);
+    font-size: clamp(60px, 8vw, 115px);
 
     line-height: 0.95;
 
@@ -247,11 +229,6 @@ a {
     letter-spacing: 3px;
 }
 
-
-/* =====================================================
-                    COMMON SECTION
-===================================================== */
-
 .section {
     padding: 110px 7%;
 }
@@ -279,11 +256,6 @@ a {
 
     line-height: 1.7;
 }
-
-
-/* =====================================================
-                    DESTINATIONS
-===================================================== */
 
 .destinations {
     background:
@@ -390,11 +362,6 @@ a {
     letter-spacing: 1px;
 }
 
-
-/* =====================================================
-                    EXPERIENCE
-===================================================== */
-
 .experience {
     display: grid;
 
@@ -472,11 +439,6 @@ a {
     line-height: 1.6;
 }
 
-
-/* =====================================================
-                    STORIES
-===================================================== */
-
 .showcase {
     background: #04131d;
 }
@@ -538,11 +500,6 @@ a {
 
     margin-top: 8px;
 }
-
-
-/* =====================================================
-                    ABOUT
-===================================================== */
 
 .about {
     display: grid;
@@ -624,11 +581,6 @@ a {
     font-size: 13px;
 }
 
-
-/* =====================================================
-                    CTA
-===================================================== */
-
 .cta {
     position: relative;
 
@@ -700,11 +652,6 @@ a {
     margin-bottom: 30px;
 }
 
-
-/* =====================================================
-                    FOOTER
-===================================================== */
-
 footer {
     padding: 60px 7% 25px;
 
@@ -763,11 +710,6 @@ footer {
 
     font-size: 13px;
 }
-
-
-/* =====================================================
-                    RESPONSIVE
-===================================================== */
 
 @media (max-width: 1000px) {
 
@@ -863,9 +805,6 @@ footer {
     }
 
 }
-/* =========================================
-   TRIPAURA LOGIN PAGE
-   ========================================= */
 
 .login-page {
     min-height: 100vh;
@@ -886,8 +825,6 @@ footer {
     font-family: Arial, sans-serif;
 }
 
-/* Login Box */
-
 .login-container {
     width: 380px;
     padding: 40px;
@@ -906,8 +843,6 @@ footer {
     text-align: center;
 }
 
-/* Logo */
-
 .login-logo img {
     width: 145px;
     max-height: 90px;
@@ -915,8 +850,6 @@ footer {
 
     margin-bottom: 15px;
 }
-
-/* Heading */
 
 .login-container h1 {
     margin: 5px 0 8px;
@@ -931,8 +864,6 @@ footer {
 
     margin-bottom: 30px;
 }
-
-/* Input */
 
 .input-group {
     text-align: left;
@@ -978,8 +909,6 @@ footer {
     box-shadow: 0 0 10px rgba(0, 217, 255, 0.25);
 }
 
-/* Remember + Forgot Password */
-
 .login-options {
     display: flex;
     justify-content: space-between;
@@ -1010,8 +939,6 @@ footer {
 .login-options a:hover {
     text-decoration: underline;
 }
-
-/* Login Button */
 
 .login-submit {
     width: 100%;
@@ -1044,8 +971,6 @@ footer {
         0 8px 25px rgba(0, 220, 255, 0.3);
 }
 
-/* Divider */
-
 .divider {
     display: flex;
     align-items: center;
@@ -1071,7 +996,6 @@ footer {
     font-size: 12px;
 }
 
-/* Sign Up */
 
 .signup-text {
     color: #9aadb4;
@@ -1091,8 +1015,6 @@ footer {
     text-decoration: underline;
 }
 
-/* Back Home */
-
 .back-home {
     display: inline-block;
 
@@ -1110,11 +1032,6 @@ footer {
 .back-home:hover {
     color: #00d9ff;
 }
-
-
-/* =========================================
-   MOBILE LOGIN
-   ========================================= */
 
 @media (max-width: 500px) {
 

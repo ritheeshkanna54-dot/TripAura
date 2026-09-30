@@ -1,16 +1,9 @@
-/* =========================================
-   TRIPAURA DESTINATION PAGES
-   ========================================= */
-
 .destination-page {
     margin: 0;
     background: #061116;
     color: white;
     font-family: Arial, sans-serif;
 }
-
-
-/* NAVIGATION */
 
 .destination-nav {
     position: absolute;
@@ -67,9 +60,6 @@
 
     font-weight: bold;
 }
-
-
-/* HERO */
 
 .destination-hero {
     height: 92vh;
@@ -185,9 +175,6 @@
     box-shadow: 0 10px 30px rgba(255,255,255,0.2);
 }
 
-
-/* QUICK INFORMATION */
-
 .quick-info {
     width: 84%;
     margin: -55px auto 0;
@@ -243,9 +230,6 @@
     font-size: 14px;
 }
 
-
-/* CONTENT */
-
 .destination-content {
     width: 84%;
 
@@ -293,9 +277,6 @@
 
     line-height: 1.8;
 }
-
-
-/* HIGHLIGHTS */
 
 .highlight-grid {
     display: grid;
@@ -351,9 +332,6 @@
 
     margin: 0;
 }
-
-
-/* ITINERARY */
 
 .itinerary-section {
     width: 84%;
@@ -413,9 +391,6 @@
 
     line-height: 1.6;
 }
-
-
-/* PACKAGE CTA */
 
 .package-section {
     width: 84%;
@@ -485,9 +460,6 @@
         0 10px 30px rgba(0,220,255,0.25);
 }
 
-
-/* FOOTER */
-
 .destination-page footer {
     text-align: center;
 
@@ -512,13 +484,6 @@
     font-size: 13px;
 }
 
-
-/* =========================================
-   DIFFERENT DESTINATION COLORS
-   ========================================= */
-
-/* Ocean */
-
 .ocean-page .destination-hero h1 span {
     color: #00e5ff;
 }
@@ -526,9 +491,6 @@
 .ocean-page .destination-tag {
     color: #00e5ff;
 }
-
-
-/* Hidden Adventures */
 
 .adventure-page .destination-hero h1 span {
     color: #ff8a4c;
@@ -550,9 +512,6 @@
     );
 }
 
-
-/* Mountains */
-
 .mountain-page .destination-hero h1 span {
     color: #78e08f;
 }
@@ -572,9 +531,6 @@
         #d6e58a
     );
 }
-
-
-/* MOBILE */
 
 @media (max-width: 800px) {
 
